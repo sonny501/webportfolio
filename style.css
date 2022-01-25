@@ -34,7 +34,7 @@ button, .btn {
 #branding {
   font-size: 40px;
   font-weight: bold;
-  margin-top: -15px;
+  margin-top: -22px;
 }
 #branding img {
   width: 200px !important;
@@ -74,11 +74,32 @@ button, .btn {
   border-bottom: 8px solid #0062cc;
 }
 
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #007bff !important;
+}
+
+@media only screen and (max-width:  991px){
+#branding {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.nav-item.active {
+  border-bottom: 0;
+}
+.nav-item, .nav.item.active {
+  border-bottom: 1px solid #ddd !important;
+}
+
+#navbarNav li.nav-item:first-child {
+  border-top: 1px solid #ddd;
+}
+
+}
+
 @media only screen and (max-width:  920px){
 .carousel-caption {
   margin-top: -35%;
 }
-
 }
 
 @media only screen and (max-width:  767px){

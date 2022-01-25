@@ -92,6 +92,20 @@ textarea.form-control {
   font-weight: 500;
 }
 
+#pageTitle {
+  background: #000;
+  color: #fff;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 14px;
+}
+
+.breadcrumb {
+  background-color: #000 !important;
+  border-radius: 0 !important;
+}
+
+
 @media only screen and (max-width:  991px){
 #branding {
   margin-top: -10px;

@@ -14,7 +14,7 @@ button, .btn {
   border-radius: 0 !important;
 }
 .btn-muted {
-  border: 1px solid #8f8f8f !important;
+  border: 1px solid #ccc !important;
   border-radius: 3px !important;
   pointer-events: none;
 }
@@ -76,6 +76,20 @@ button, .btn {
 
 .navbar-light .navbar-nav .active > .nav-link {
   color: #007bff !important;
+}
+input.form-control {
+  height: calc(2em + 0.95rem + 2px) !important;
+  padding: .5rem .75rem !important;
+}
+
+form input {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+
+textarea.form-control {
+  font-size: 18px;
+  font-weight: 500;
 }
 
 @media only screen and (max-width:  991px){

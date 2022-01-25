@@ -62,6 +62,7 @@ button, .btn {
   padding-top: 250px;
   padding-bottom: 400px;
   background-position: top center;
+  background-attachment: fixed;
 }
 .copyright {
   background: #000;

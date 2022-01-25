@@ -60,6 +60,7 @@ button, .btn {
   background-repeat: no-repeat;
   padding-top: 250px;
   padding-bottom: 400px;
+  background-position: top center;
 }
 .copyright {
   background: #000;

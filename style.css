@@ -54,15 +54,9 @@ button, .btn {
   background-image: url("./images/venado.png");
   background-size: cover;
   background-repeat: no-repeat;
-}
-#cta {
-  background-image: url("./images/venado.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   padding-top: 250px;
   padding-bottom: 400px;
   background-position: top center;
-  background-attachment: fixed;
 }
 .copyright {
   background: #000;

@@ -25,8 +25,8 @@ button, .btn {
   text-align: left;
   left: 6%;
 }
-.carousel-caption.d-none.d-md-block {
-  position: relative;
+.carousel-caption {
+  position: relative !important;
   margin-top: -27%;
   z-index: 999;
   float: left;

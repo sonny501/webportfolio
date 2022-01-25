@@ -1,0 +1,90 @@
+* {
+  font-family:  'Montserrat', sans-serif;  
+}
+img {
+  border-radius: 6px;
+}
+body p {
+  color: #767676;
+}
+button, .btn {
+  border-radius: 3px !important;
+}
+.carousel-item img {
+  border-radius: 0 !important;
+}
+.btn-muted {
+  border: 1px solid #8f8f8f !important;
+  border-radius: 3px !important;
+  pointer-events: none;
+}
+#main-nav {
+  z-index: 9999;
+}
+#hero-caption {
+  text-align: left;
+  left: 6%;
+}
+.carousel-caption.d-none.d-md-block {
+  position: relative;
+  margin-top: -27%;
+  z-index: 999;
+  float: left;
+}
+#branding {
+  font-size: 40px;
+  font-weight: bold;
+}
+#branding img {
+  width: 200px !important;
+  border-radius: 3px;
+}
+
+#portfolio img {
+  border: 1px solid #ddd;
+  margin: 10px;
+}
+#portfolio img:hover { 
+  transition: all .9s ease-in-out;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+#cta {
+  background-image: url("./images/venado.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#cta {
+  background-image: url("./images/venado.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 250px;
+  padding-bottom: 400px;
+}
+.copyright {
+  background: #000;
+}
+
+@media only screen and (max-width:  920px){
+.carousel-caption {
+  margin-top: -35%;
+}
+
+}
+
+@media only screen and (max-width:  767px){
+#portfolio img {
+  width: 100% !important;
+  margin: 10px 0;
+}
+}
+@media only screen and (max-width:  448px){
+
+#hero-caption h2 {
+  font-size: 18px;
+}
+#hero-caption h4 {
+  font-size: 14px !important;
+}
+
+}

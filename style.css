@@ -109,6 +109,10 @@ textarea.form-control {
   background-attachment: fixed;
 }
 
+.mapouter, .gmap_canvas {
+  width: 100% !important;
+}
+
 #addBox {
   border-radius: .25rem;
 }

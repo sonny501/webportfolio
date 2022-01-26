@@ -72,7 +72,7 @@ button, .btn {
 }
 
 .nav-item.active, .nav-item:hover {
-  border-bottom: 8px solid #0062cc;
+  border-bottom: 8px solid #0062cc !important;
 }
 
 .navbar-light .navbar-nav .active > .nav-link {

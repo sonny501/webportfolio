@@ -18,6 +18,12 @@ button, .btn {
   border-radius: 3px !important;
   pointer-events: none;
 }
+.btn.btn-muted {
+  color: #fff;
+  background: #9e9d9d;
+  border: 0 !important;
+  font-weight: bold;
+}
 #main-nav {
   z-index: 9999;
 }

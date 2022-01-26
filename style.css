@@ -128,9 +128,6 @@ textarea.form-control {
   margin-top: -10px;
   margin-bottom: 10px;
 }
-.nav-item.active {
-  border-bottom: 0;
-}
 .nav-item.active, .nav-item:hover {
   border-bottom: 0 !important;
 }  

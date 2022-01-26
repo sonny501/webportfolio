@@ -28,13 +28,13 @@
 						<a class="nav-link h5 p-3" href="./index.html">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link h5 p-3" href="./about.html">About</a>
+						<a class="nav-link h5 p-3" href="#about">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link h5 p-3" href="./portfolio.html">Portfolio</a>
+						<a class="nav-link h5 p-3" href="#portfolio">Portfolio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link h5 p-3" href="./contact.html">Contact</a>
+						<a class="nav-link h5 p-3" href="#contact">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -67,12 +67,10 @@
 		<div class="row pt-5 d-md-flex justify-content-around">
 			<div id="intro-left" class="col-md-6 col-xl-4"><img src="./images/crater.jpg" class="img-fluid"></div>
 			<div id="intro-right" class="col-md-6 col-xl-4">
-				<button type="button" class="btn btn-muted mb-3 mt-3">ABOUT ME</button>
+				<button id="about" type="button" class="btn btn-muted mb-3 mt-3">ABOUT ME</button>
 				<h2 class="pb-3">Skilled Fullstack Web Developer Based in Davao City, Philippines</h2>
 				<p class="pb-3">Goal-oriented fullstack web developer with strong commitment to collaboration and solutions-oriented problem-solving. Committed to high standards of web design, user experience, usability and speed for multiple types of end-users. Successful at maintaining customer satisfaction through effective customer service. </p>
-				<a class="btn btn-primary mt-3 pl-4 pr-4 pt-3 pb-3" href="./cv/sonnym.day-resume11.4.21.pdf" role="button">DOWNLOAD CV</a>
-				<a class="btn btn-danger mt-3 pl-4 pr-4 pt-3 pb-3" href="./about.html" role="button">LEARN MORE</a>
-			</div>
+				<a class="btn btn-primary mt-3 pl-4 pr-4 pt-3 pb-3" href="./cv/sonnym.day-resume11.4.21.pdf" role="button">DOWNLOAD CV</a>				
 		</div>		
 	</div>
 	<!-- Skills Section -->
@@ -130,7 +128,7 @@
 		</div>	
 	</div>
 	<div id="portfolio" class="container-fluid pt-5 mt-5 pb-5">
-		<div class="d-md-flex col-md-12 justify-content-around"><button type="button" class="btn btn-muted mb-3">PORTFOLIO</button></div>
+		<div class="d-md-flex col-md-12 justify-content-around"><button id="portfolio" type="button" class="btn btn-muted mb-3">PORTFOLIO</button></div>
 		<div class="row">
 			<div class="col-md-12 mb-0 d-md-flex justify-content-center">				
 				<img src="./images/roto-rooter.jpg" class="w-25 shadow-1-strong rounded img-fluid bg-image hover-zoom">
@@ -152,16 +150,52 @@
 		</div>			
 	</div>
 	<!-- End of Portfolio -->
-	<div id="cta">
-		<h2 id="footer-heading" class="text-center h1 pt-5 text-white">HIRE ME</h2>
-		<h4 class="text-white text-center">Let me turn your dream website into a reality</h4>
+	<div id="contact" class="formWrap">
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12 mb-0 d-flex justify-content-center">				
-					<a class="btn btn-danger mt-3 pl-4 pr-4 pt-3 pb-3" href="./contact.html" role="button">MAKE AN INQUIRY</a>		
-				</div>		
-			</div>		
-		</div>		
+			<!-- Start of Contact Form -->
+			<h4 class="text-center text-light">Let's Get in Touch!</h4>		
+			<p class="text-center text-light"><em>Please fill the form below</em></p>
+			<div class="row d-md-flex justify-content-around">
+				<div class="col-md-10 col-lg-8 col-xl-6">
+					<div class="mx-2 pb-5">
+						<form>
+						    <div class="form-group row">
+						        <div class="col-sm-6">				                      
+						            <input type="text" class="form-control mb-3" id="inputFirstname" placeholder="First name">
+						        </div>
+						        <div class="col-sm-6">				                   
+						            <input type="text" class="form-control" id="inputLastname" placeholder="Last name">
+						        </div>
+						    </div>
+						    <div class="form-group row">
+						        <div class="col-sm-6">				               
+						            <input type="number" class="form-control mb-3" id="inputContactNumber" placeholder="Contact Number">
+						        </div>
+						        <div class="col-sm-6">				
+						            <input type="text" class="form-control mb-3" id="inputWebsite" placeholder="Website">
+						        </div>
+						    </div>
+						    <div class="form-group row">
+						        <div class="col-sm-12">				               
+						            <textarea class="form-control" placeholder="Message" id="exampleFormControlTextarea1" rows="5"></textarea>
+						        </div>
+						    </div>
+						    <div class="text-center"><button type="button" class="btn btn-danger px-4 h1 w-100 btn-lg pt-3 pb-3">SUBMIT</button></div>
+						</form>
+					</div >
+				</div>			
+			</div>
+			<div id="addBox" class="pt-5 mx-2">
+				<h4 class="mb-0 text-center text-light pb-3">Office Address</h4>
+				<p class="text-center text-light">Block 3 Lot 1 Phase 2<br>San Lorenzo Village, Davao City<br>Philippines</p>	
+			</div>
+			<div class="row d-md-flex justify-content-around">
+				<div class="col-md-10 col-lg-8 col-xl-6">
+					<div class="mapouter"><div class="gmap_canvas"><iframe width="905" height="500" id="gmap_canvas" src="https://maps.google.com/maps?ll=7.057580299516006,125.52897389728435&q=&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://techwithlove.com/how-to-know-who-viewed-my-whatsapp-profile/">TechWithLove</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:905px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:905px;}</style></div>
+				</div>
+			</div>	
+			<!-- End of Contact Form -->
+		</div>
 	</div>
 	<div class="copyright pt-3 pb-3">
 		<div class="container-fluid">

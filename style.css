@@ -132,7 +132,7 @@ textarea.form-control {
   border-bottom: 0;
 }
 .nav-item.active, .nav-item:hover {
-  border-bottom: 0;
+  border-bottom: 0 !important;
 }  
 .nav-item, .nav.item.active {
   border-bottom: 1px solid #ddd !important;

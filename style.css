@@ -154,7 +154,11 @@ textarea.form-control {
 }
 #portfolio > div {
   padding-left: 0;
-}  
+} 
+#about-section > div {
+  padding-top: 0 !important;
+}
+  
 }
 
 @media only screen and (max-width:  448px){

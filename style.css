@@ -71,7 +71,7 @@ button, .btn {
   margin-bottom: 0;
 }
 
-.nav-item.active {
+.nav-item.active, .nav-item:hover {
   border-bottom: 8px solid #0062cc;
 }
 

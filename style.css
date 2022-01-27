@@ -47,6 +47,9 @@ button, .btn {
   z-index: 999;
   float: left;
 }
+#hero-caption h4 {
+  font-size: 2rem;
+}
 #branding {
   font-size: 40px;
   font-weight: bold;
@@ -174,8 +177,7 @@ textarea.form-control {
 } 
 #about-section > div {
   padding-top: 0 !important;
-}
-  
+}  
 }
 
 @media only screen and (max-width:  448px){

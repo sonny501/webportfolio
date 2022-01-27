@@ -189,6 +189,15 @@ textarea.form-control {
 #about-section > div {
   padding-top: 0 !important;
 }  
+#hero-caption {
+  top: -20px !important;
+}	
+#hero-caption h2 {
+  font-size: 2rem;
+}
+#hero-caption h4 {
+  font-size: 1.5rem;
+}	
 }
 
 @media only screen and max-width: 580px){

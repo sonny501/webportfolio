@@ -9,6 +9,10 @@ body p {
   font-size: 1.1rem;
   font-weight: 500;
 }
+.formWrap h2 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
 button, .btn {
   border-radius: 3px !important;
 }

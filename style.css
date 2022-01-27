@@ -10,6 +10,9 @@ body p {
 button, .btn {
   border-radius: 3px !important;
 }
+.btn {
+  font-weight: 600;
+}
 .nav-item a:hover {
   color: #007bff !important;
 } 

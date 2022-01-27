@@ -183,6 +183,16 @@ textarea.form-control {
 }  
 }
 
+@media only screen and max-width: 580px){
+#hero-caption h4 {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+#hero-caption h2 {
+  font-size: 3.5rem;
+}	
+}
+
 @media only screen and (max-width:  448px){
 
 #hero-caption h2 {

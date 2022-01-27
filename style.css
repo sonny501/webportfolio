@@ -50,6 +50,9 @@ button, .btn {
 #hero-caption h4 {
   font-size: 2rem;
 }
+#hero-caption h2 {
+  font-size: 3.5rem;
+}
 #branding {
   font-size: 40px;
   font-weight: bold;
